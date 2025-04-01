@@ -7,7 +7,7 @@ import (
 
 // Name represents an English-language name, meaning a list of words.
 type Name struct {
-	Words []Word
+	Words []Word `json:"words"`
 }
 
 // NewName parses a string into a Name.
